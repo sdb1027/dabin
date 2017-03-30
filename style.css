@@ -1,0 +1,61 @@
+* {
+box-sizing: border-box;
+margin: 0 auto;
+padding: 0;
+}
+
+body {
+    width: 960px;
+}
+
+nav {
+    height: 80px;
+}
+
+nav div.left {
+    float: left;
+    line-height: 80px;
+}
+
+nav div.right {
+    float: right;
+}
+
+nav li {
+    float: left;
+    list-style-type: none;
+    padding-right: 20px;
+    line-height: 80px;
+}
+
+header {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-5/htmlcss1-img_canyon.jpeg");
+  background-position: center center;
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+}
+
+.menu01{
+    width:300px;
+    float:left;
+    margin:0px;
+}
+.menu02{
+    width:300px;
+    float:left;
+    margin:0px 30px;
+}
+.menu03{
+    width:300px;
+    float:left;
+    margin:0px;
+}
+
+footer {
+    clear:both;
+    height: 80px;
+    text-align: center;
+    line-height:80px;
+    background-color: #ebebeb;
+}
