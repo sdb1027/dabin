@@ -6,56 +6,81 @@ padding: 0;
 
 body {
     width: 960px;
+    display: block;
 }
 
 nav {
-    height: 80px;
+    height: 70px;
+    background-color:#E6EE9C;
+    line-height: 70px;
 }
-
-nav div.left {
-    float: left;
-    line-height: 80px;
-}
-
-nav div.right {
+.nav-menu {
     float: right;
+    margin-right: 30px;
 }
-
-nav li {
-    float: left;
+.nav-btn {
     list-style-type: none;
-    padding-right: 20px;
-    line-height: 80px;
+    margin: 0;
 }
-
-header {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-5/htmlcss1-img_canyon.jpeg");
-  background-position: center center;
-  background-size: cover;
-  height: 700px;
-  width: 100%;
+ul.nav-btn > li {
+    float: left;
+    margin-left: 25px;
 }
-
-.menu01{
-    width:300px;
-    float:left;
-    margin:0px;
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
 }
-.menu02{
-    width:300px;
-    float:left;
-    margin:0px 30px;
+nav::after {
+    content: " ";
+    display: block;
+    clear: both;
 }
-.menu03{
-    width:300px;
-    float:left;
-    margin:0px;
-}
-
-footer {
-    clear:both;
-    height: 80px;
+.hd {
+    height: 600px;
+    background-image: url(https://www.google.co.kr/search?q=kings+of+convenience&newwindow=1&rlz=1C1EQUG_enKR631KR631&espv=2&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiRl52fsoXTAhWLUbwKHfpfDwAQ_AUIBygC&biw=1707&bih=823&dpr=1.13#imgrc=sNVsYOQY7zbWmM:);
+    background-size: cover;
+    background-position: center center;
+    color: white;
     text-align: center;
-    line-height:80px;
-    background-color: #ebebeb;
+}
+.hd-title {
+    font-size: 100px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding-top: 150px;
+    font-family: 'Amatic SC', cursive;
+}
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.sec {
+    text-align: center;
+    padding: 100px 0;
+}
+.sec article {
+    float: left;
+    width: 300px;
+    margin-right: 30px;
+}
+.square {
+    overflow: hidden;
+    height: 300px;
+    width: 300px;
+}
+.sec article p {
+    margin-top: 40px;
+}
+.sec::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+.ft {
+    padding: 15px;
+    text-align: center;
+    background-color: #E6EE9C;
 }
