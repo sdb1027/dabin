@@ -21,7 +21,6 @@ nav {
 .nav-btn {
     list-style-type: none;
     margin: 0;
-}
 ul.nav-btn > li {
     float: left;
     margin-left: 25px;
@@ -37,7 +36,7 @@ nav::after {
 }
 .hd {
     height: 600px;
-    background-image: url(https://www.google.co.kr/search?q=kings+of+convenience&newwindow=1&rlz=1C1EQUG_enKR631KR631&espv=2&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiRl52fsoXTAhWLUbwKHfpfDwAQ_AUIBygC&biw=1707&bih=823&dpr=1.13#imgrc=sNVsYOQY7zbWmM:);
+    background-image: url(https://s-media-cache-ak0.pinimg.com/736x/ea/db/12/eadb12b92d3ec52ce2da592c30813175.jpg;)
     background-size: cover;
     background-position: center center;
     color: white;
